@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="header-container">
+      <a href="#" class="logo">My Logo </a>
+      <nav class="desktop-nav-display">
+        <img
+          class="mobile-nav cell-nav"
+          src="images/Union.png"
+          alt=" Navigation "
+        />
+
+        <ul class="desktop-nav">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="cellphone-nav">
+        <ul class="nav">
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <img
+          class="mobile-nav-icon cell-nav"
+          src="images/Icon.svg"
+          alt=" Navigation"
+        />
+      </nav>
+    </header>
+    <div class="container">
+      <section aria-labelledby="basic-introduction" class="hero">
+        <h1 id="basic-introduction">I’m Malik Glad to see you!</h1>
+        <p class="hero-text">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <article>
+          <h3>LET’S CONNECT</h3>
+          <ul class="social-media">
+            <li>
+              <a href="#">
+                <img src="images/Vector.png" alt="Twitter link" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Linkedin icon.png" alt=" Linkedin link" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Vector m.png" alt=" Medium link" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Vector (2).png" alt="Github link" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/Vector (3).png" alt="Angellist link" />
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </div>
+    <section id="portfolio" title="portfolio-snapshot" class="card-works-box Projects">
+    </section>
+    <section id="about" class="about-contact-box">
+      <section aria-labelledby="about-myself" class="about-myself about-box">
+        <article>
+          <h2 id="about-myself" class="heading-about">About Myself</h2>
+          <p class="hero-text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <article>
+            <h3>LET’S CONNECT</h3>
+            <ul class="social-media">
+              <li>
+                <a href="#">
+                  <img src="images/Vector.png" alt="Twitter link" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/Linkedin icon.png" alt="Linkedin link" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/Vector m.png" alt="Medium link" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/Vector (2).png" alt="Github link" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="images/Vector (3).png" alt="Angellist" />
+                </a>
+              </li>
+            </ul>
+          </article>
+          <button class="btn btn--normal">Get my resume</button>
+        </article>
+        <article>
+          <div class="frameworks">
+            <h5 class="framework-heading">Languages</h5>
+            <img class="arrow" src="images/arrow.png" alt="Languages link" />
+          </div>
+          <ul class="language-box">
+            <li class="language-frame">
+              <img
+                class="ellipse"
+                src="images/Ellipse 1.png"
+                alt="JavaSript icon"
+              />
+              <h4 class="ellipse-text">JavaSript</h4>
+            </li>
+            <li class="language-frame">
+              <img class="ellipse" src="images/Ellipse 1 (1).png" alt="HTML" />
+              <h4 class="ellipse-text">HTML</h4>
+            </li>
+            <li class="language-frame">
+              <img class="ellipse" src="images/Ellipse 1 (2).png" alt="CSS" />
+              <h4 class="ellipse-text">CSS</h4>
+            </li>
+          </ul>
+          <div class="frameworks">
+            <h5 class="framework-heading">Frameworks</h5>
+            <img class="arrow" src="images/arrow.png" alt="Frameworks" />
+          </div>
+          <hr />
+          <div class="frameworks">
+            <h5 class="framework-heading">Skills</h5>
+            <img class="arrow" src="images/arrow.png" alt="Skills" />
+          </div>
+          <hr />
+        </article>
+      </section>
+      <form
+        id="contact"
+        class="form-container"
+        action="https://formspree.io/f/xqkjrppo"
+        method="post"
+      >
+        <h2 class="contact-me">Contact me</h2>
+        <p class="contact-info">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+        <article class="input-container">
+          <label for="name">Name</label>
+          <input
+            class="contact-input"
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Yeremias"
+            maxlength="30"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            class="contact-input"
+            id="email"
+            name="email"
+            type="email"
+            pattern="[a-z0-9._-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="natajayanj14@gmail.com"
+            required
+          />
+          <label for="message">Message</label>
+          <textarea
+            class="contact-input"
+            name="message"
+            id="message"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <div id="error-message" class=""></div>
+          <button type="submit" class="btn btn--normal btn-form">
+            Get In Touch
+          </button>
+        </article>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
